@@ -1,0 +1,44 @@
+ .nav{
+     /* width: 1920px; */
+     /* height: 1135px; */
+ }
+ .Dataright{
+     /* float: right; */
+ }
+ .Dataleft{
+     /* float: left; */
+ }
+.signup{
+    background-color:#D90368;
+    width: 130px;
+    height: 50px;
+    padding:10px;
+    /* height: 80px; */
+}
+/* .a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-color: #52176B;
+} */
+.homeStyle{ 
+    font-size: 17px;
+    font-weight: bold;
+    color: #52176B !important;
+    margin-right: 30px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+
+}
+
+.customize{
+    
+    font-weight: bold;
+    color: #52176B !important;
+    margin-right: 30px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+.customnav {
+    padding: 0 !important;
+}
+
+.logo{
+    height: 70px;
+}

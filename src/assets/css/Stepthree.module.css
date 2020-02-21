@@ -1,0 +1,388 @@
+.rowstyle {
+    margin-top: 60px;
+    /* padding-left: 130px; */
+    margin-bottom: 60px;
+
+}
+
+.line {
+    display: table-cell;
+    vertical-align: middle;
+    /* margin-top: 30px; */
+    height: 4px;
+    width: 120px;
+    color: black;
+    background-color: #0F3577;
+    opacity: 1;
+}
+.greyline {
+    /* margin-top: 30px; */
+    height: 4px;
+    width: 120px;
+    color: black;
+    background-color: #bcbec0;
+    opacity: 1;
+}
+.set {
+    margin-left: 15px;
+    text-align: left;
+    font: Bold 20px/28px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.imagecontainer {
+    background-color: #0F3577;
+    width: 65px;
+    border-radius: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    line-height: 40px;
+}
+.imagecontainerwhite {
+    background-color: #ffffff;
+    width: 65px;
+    border-style: solid;
+    border-color: #0F3577;
+    border-radius: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    line-height: 40px;
+}
+.imagecontainerwhite1 {
+    background-color: #ffffff;
+    width: 65px;
+    border-style: solid;
+    border-color: #bcbec0;
+    border-radius: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    line-height: 40px;
+}
+.timelable {
+    margin-left: 676px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+
+.prevBtnText {
+    color: #0F3577;
+}
+.rowlabel {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.lables {
+    margin-left: 20px;
+    margin-top: 30px;
+    position: absolute;
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.textlabel {
+    margin-top: 30px;
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.textlabel1 {
+    margin-top: 10px;
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.editlabel {
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #D90368;
+}
+.reviewlable {
+    /* margin-left: 840px; */
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.label1 {
+    margin-left: 35px;
+    margin-top: 40px;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font: Bold 20px/28px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.rowdesign {
+    background: #ffffff 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+label {
+    margin-top: 40px;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0;
+    color: #0F3577;
+    opacity: 1;
+}
+.fairlabel {
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0;
+    color: #0F3577;
+    opacity: 1;
+}
+.button {
+    height: 40px;
+    width: 130px;
+    /* text-align: right; */
+    /* margin-top: 110px; */
+    /* margin-right: 100px; */
+    /* padding-left: 15px; */
+    background: #0F3577 0 0 no-repeat padding-box !important;
+    border-radius: 7px !important;
+    opacity: 1 !important;
+}
+.button1 {
+    height: 40px;
+    width: 130px;
+    /* text-align: left; */
+    /* margin-top: 110px; */
+    margin-right: 20px;
+    /* padding-left: 15px; */
+    text-decoration-color: #0F3577;
+    background: #ffffff 0 0 no-repeat padding-box !important;
+    border-radius: 7px !important;
+    opacity: 1 !important;
+}
+.picsetting {
+    text-align: center;
+    margin-left: 20px;
+}
+.Logo {
+    height: 400px;
+    width: 400px;
+}
+.btnsDiv {
+    margin-top: 110px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contentArea {
+    margin-bottom: 200px;
+}
+.activeImage {
+    /* text-align: center; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.activeImageset {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+@media only screen and (max-width: 768px) {
+    .steponeImage {
+        display: none;
+    }
+    .imagecontainer {
+        background-color: #0F3577;
+        width: 45px;
+        border-radius: 45px;
+        height: 45px;
+        text-align: center;
+        display: block;
+        /* padding: 30px; */
+        line-height: 0;
+    }
+    .imagecontainerwhite {
+        background-color: #ffffff;
+        width: 45px;
+        border-style: solid;
+        border-color: #0F3577;
+        border-radius: 45px;
+        height: 45px;
+        /* text-align: center; */
+        padding: 6px;
+        /* display: block; */
+        line-height: 0;
+    }
+    .imagecontainerwhite1 {
+        background-color: #ffffff;
+        width: 45px;
+        border-style: solid;
+        border-color: #bcbec0;
+        border-radius: 45px;
+        height: 45px;
+        text-align: center;
+        display: block;
+        line-height: 0;
+    }
+    .activeImage {
+        /* text-align: center; */
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .activeImageset {
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+    }
+    .greyline {
+        width: 20px;
+    }
+    .line {
+        width: 20px;
+    }
+    .rowlabel {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .lables {
+        margin-left: 12px;
+        text-align: center;
+        font: Bold 13px/21px Segoe UI;
+        letter-spacing: 0;
+        color: #0F3577;
+    }
+    .button {
+        height: 35px;
+        width: 115px;
+        background: #0F3577 0 0 no-repeat padding-box !important;
+        border-radius: 7px !important;
+        opacity: 1 !important;
+    }
+    .button1 {
+        height: 35px;
+        width: 115px;
+        /* margin-bottom: 20px; */
+        /* margin-top: 110px; */
+        margin-right: 10px;
+        /* padding-left: 15px; */
+        text-decoration-color: #0F3577;
+        background: #ffffff 0 0 no-repeat padding-box !important;
+        border-radius: 7px !important;
+        opacity: 1 !important;
+    }
+    select {
+        font-size: small !important;
+        height: 35px !important;
+
+    }
+    .btnsDiv {
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .label1 {
+        padding-left: 10px;
+        padding-right: 15px;
+
+    }
+    .arrowsize {
+        height: 14px;
+        width: 20px;
+    }
+    .contentArea{
+        margin-bottom: 80px;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 991px) {
+   
+    .imagecontainer {
+        background-color: #0F3577;
+        width: 60px;
+        border-radius: 60px;
+        height: 60px;
+        text-align: center;
+        display: block;
+        line-height: 0;
+    }
+    .imagecontainerwhite1 {
+        background-color: #ffffff;
+        width: 60px;
+        border-style: solid;
+        border-color: #bcbec0;
+        border-radius: 60px;
+        height: 60px;
+        text-align: center;
+        display: block;
+        line-height: 0;
+    }
+    .line {
+        width: 50px;
+    }
+    .activeImage {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .greyline {
+        width: 50px;
+    }
+    .rowlabel {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .button {
+        height: 35px;
+        width: 115px;
+        background: #0F3577 0 0 no-repeat padding-box !important;
+        border-radius: 7px !important;
+        opacity: 1 !important;
+    }
+    .button1 {
+        height: 35px;
+        width: 115px;
+        /* margin-bottom: 20px; */
+        /* margin-top: 110px; */
+        margin-right: 10px;
+        /* padding-left: 15px; */
+        text-decoration-color: #0F3577;
+        background: #ffffff 0 0 no-repeat padding-box !important;
+        border-radius: 7px !important;
+        opacity: 1 !important;
+    }
+    .arrowsize {
+        height: 14px;
+        width: 20px;
+    }
+    .lables {
+        margin-left: 20px;
+        text-align: center;
+        position: absolute;
+        margin-top: 20px;
+        font: Bold 13px/21px Segoe UI;
+        letter-spacing: 0;
+        display: block;
+        color: #0F3577;
+    }
+    .btnsDiv {
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .label1 {
+        padding-left: 10px;
+        padding-right: 15px;
+
+    }
+    .contentArea {
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,45 @@
+.search {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    font: Bold 20px/28px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.rowstyle {
+    margin-top: 15px !important;
+    margin-left: 20px !important;
+
+}
+.con {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+.button {
+    margin-left: 20px;
+    font-size: 13px !important;
+    width: 100px;
+    height: 35px;
+    background: #0F3577 0 0 no-repeat padding-box !important;
+    border-radius: 5px !important;
+    opacity: 1;
+}
+input {
+    font-size: small !important;
+}
+select {
+    font-size: small !important;
+}
+.navoptions {
+    padding: 16px !important ;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0F3577;
+}
+.navoptions:hover {
+    color: #FFFFFF !important;
+    background-color: #D90368 !important;
+}

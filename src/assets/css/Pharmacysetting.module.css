@@ -1,0 +1,67 @@
+
+.set {
+    margin-left: 15px;
+    text-align: left;
+    font: Bold 20px/28px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.column {
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+
+}
+.title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font: Bold 18px/25px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+    opacity: 1;
+}
+.about {
+    height: 130px !important;
+}
+.experties {
+    height: 60px !important;
+}
+
+label{
+    font-weight: normal;
+    font-size: 15px;
+/* font: Regular 22px/30px Segoe UI; */
+letter-spacing: 0;
+color: #0F3577 ;
+opacity: 1;
+}
+input{
+    font-size: medium !important;
+    /* font-weight: 300px; */
+    /* width: 260px !important; */
+height: 35px !important; 
+}
+.button {
+    width: auto;
+    margin-top: 35px;
+    /* text-align: right; */
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    /* text-align: center !important; */
+    background: #0F3577 0 0 no-repeat padding-box !important;
+    border-radius: 7px !important;
+    opacity: 1 !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .signup {
+        display: block;
+    }
+}

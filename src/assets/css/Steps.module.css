@@ -1,0 +1,172 @@
+.rowstyle {
+    margin-top: 60px;
+    padding-left: 130px;
+}
+.line{
+    margin-top: 30px;
+    height: 4px;
+    width: 120px;
+    color: black;
+    background-color:#0F3577;
+    opacity: 1;
+
+}
+.set {
+    margin-left: 15px;
+    /* margin-top: 10px; */
+    text-align: left;
+    font: Bold 20px/28px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.imagecontainer {
+    background-color: #0F3577;
+    width: 65px;
+    border-radius: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin-right: 130px;
+    line-height: 40px;
+}
+.imagecontainerwhite {
+    background-color: #ffffff;
+    width: 65px;
+    border-style: solid;
+    border-color: #0F3577;
+    border-radius: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin-right: 130px;
+    line-height: 40px;
+}
+.imagecontainerwhite1 {
+    background-color: #ffffff;
+    width: 65px;
+    border-style: solid;
+    border-color: #bcbec0;
+    border-radius: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    /* margin-right: 130px; */
+    line-height: 40px;
+}
+.timelable {
+    margin-left: 676px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    /* text-align: left; */
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.lables {
+    margin-left: 480px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    /* text-align: left; */
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.textlabel {
+    /* margin-left: 480px; */
+    margin-top: 30px;
+    /* padding-bottom: 20px; */
+    /* text-align: left; */
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.textlabel1 {
+    /* margin-left: 480px; */
+    margin-top: 10px;
+    /* padding-bottom: 20px; */
+    /* text-align: left; */
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.editlabel {
+    /* margin-left: 480px; */
+    /* margin-top: 30px; */
+    /* padding-bottom: 20px; */
+    /* text-align: left; */
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #D90368;
+}
+.reviewlable {
+    margin-left: 840px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    /* text-align: left; */
+    font: Bold 13px/21px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.label1 {
+    margin-left: 35px;
+    margin-top: 40px;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 15px;
+    /* text-align: left;  */
+    font: Bold 20px/28px Segoe UI;
+    letter-spacing: 0;
+    color: #0F3577;
+}
+.rowdesign {
+    /* height: 380px ; */
+    /* width: 1200px ; */
+    /* margin-top: 25px;
+    padding-top: 40px; */
+    /* padding-left: 0px; */
+    /* padding-right: 0px;  */
+    /* padding-bottom: 80px;  */
+    background: #ffffff 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+/* .column2 {
+    background: #ffffff 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+} */
+label {
+    margin-top: 40px;
+    /* margin-bottom: 20px;/ */
+    /* margin-left: 10px !important; */
+    font-weight: normal;
+    font-size: 15px;
+    /* font: Regular 22px/30px Segoe UI; */
+    letter-spacing: 0;
+    color: #0F3577;
+    opacity: 1;
+}
+.button {
+    width: auto;
+    margin-top: 110px;
+    /* text-align: right; */
+    padding-left: 15px;
+    /* padding-right: 15px; */
+    /* text-align: center !important; */
+    background: #0F3577 0 0 no-repeat padding-box !important;
+    border-radius: 7px !important;
+    opacity: 1 !important;
+}
+.picsetting {
+    text-align: center;
+    margin-left: 20px;
+}
+.Logo {
+    height: 400px;
+    width: 400px;
+}

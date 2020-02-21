@@ -1,0 +1,85 @@
+.container{
+    background-color:   #e7ecf4;
+    width: 100%;
+    height: 1200px;
+    padding-top: 200px;
+}
+
+.middleContainer{
+    height: 400px;
+    width: 950px;
+ 
+    margin-left: 200px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    border-radius: 5px;
+    opacity:
+    
+}
+
+.label{
+    text-align: left;
+font: Semibold 17px/22px Segoe UI;
+letter-spacing: 0;
+color: #0F3577;
+opacity: 1;
+font-size: 17px;
+}
+
+
+.pera{
+    text-align: left;
+font: Regular 17px/22px Segoe UI;
+letter-spacing: 0;
+color: #CCCCCC;
+opacity: 1;
+}
+
+.bid{
+    text-align: left;
+font: Regular 17px/22px Segoe UI;
+letter-spacing: 0;
+color: #999999;
+opacity: 1;
+}
+
+.price{
+    font-size: 25px;
+    text-align: left;
+font: Regular 25px/33px Segoe UI;
+letter-spacing: 0;
+color: #D90368;
+opacity: 1;
+}
+
+
+.ul{
+    list-style: none;
+}
+
+.rating{
+    font-size: 25px;
+    text-align: left;
+font: Regular 25px/33px Segoe UI;
+letter-spacing: 0;
+color: #0F3577;
+opacity: 1;
+}
+
+.li{
+    float: left;
+    border-right: 1px solid;
+    padding: 0 40px
+}
+
+
+.btn1{
+    width: 160px;
+height: 60px;
+    border: 1px solid #0F3577;
+border-radius: 10px;
+opacity: 1;
+appearance: 10px 10px 10px 10px;
+border: 1px;
+}
