@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {ReactComponent as Logo} from '../assets/logo.svg';
-import styles from '../assets/css/Navbar.module.css';
+import styles from '../assets/Navbar.module.css';
 
 class Navbar extends Component {
 
@@ -8,19 +8,12 @@ class Navbar extends Component {
     {
         const homeStyle = "nav-link " + styles.customize;
         return (
-
-           <div>
+            <nav className="navbar navbar-expand-lg navbar-light bg-white customnav">
                 <a className="navbar-brand" href="#">
                     <div className={styles.logo}>
                         <Logo height={45}/>
                     </div>
                 </a>
-                <nav className="navbar navbar-expand-lg navbar-light bg-white customnav">
-                {/* <a className="navbar-brand" href="#">
-                    <div className={styles.logo}>
-                        <Logo height={45}/>
-                    </div>
-                </a> */}
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -45,7 +38,7 @@ class Navbar extends Component {
                             <a className={styles.homeStyle} href="#">About Us</a>
                         </li>
                     </ul>
-                    {/* <ul className="navbar-nav ">
+                    <ul className="navbar-nav ">
                         <li className="nav-item">
                             <a
                                 className={styles.homeStyle}
@@ -58,13 +51,10 @@ class Navbar extends Component {
                                 >Sign Up</a>
                             </div>
                         </li>
-                    </ul> */}
+                    </ul>
                 </div>
             </nav>
 
-
-           </div> 
-            
         )
     }
 }
