@@ -14,12 +14,13 @@ import React, {Component} from 'react';
  import Stepfour from './Components/Stepfour';
  import Stepfive from './Components/Stepfive';
 import Pharmacyprofile from './Components/Pharmacyprofile';
-//import Manageoffers from './Components/Manageoffers';
-//import Postview from './container/postview/Postview.js';
+import Manageoffers from './Components/Manageoffers';
+// import Postview from './container/postview/Postview.js';
 import Profile from './Components/Profile.js';
 
 // import Navbar from './Components/TempNavbar.js';
-import CustomerSetting from './Components/CustomerSetting.js';
+import CustomerSetting from './Components/CustomerSetting.js'; 
+import Postview from './Components/Postview.js';
 
 
 class App extends Component {
@@ -41,7 +42,8 @@ class App extends Component {
                  {/* <Pharmacysetting/> */}
                 {/* <Pharmacyprofile/>  */}
                 {/* <Profile/> */}
-                <CustomerSetting/>
+                {/* <CustomerSetting/> */}
+                <Postview/>
                 </>
         )
 

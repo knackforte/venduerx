@@ -1,8 +1,207 @@
+.outerContainer{
+    background-color: #e7ecf4;
+}
+
+
+.heading{
+    color: #0f3577;
+font-family: "Segoe UI";
+font-size: 25px;
+font-weight: 700;
+
+margin: 30px 0px 30px;
+}
+
+.blueBox{
+    border-radius: 5px 0 0 5px;
+    background-color: #0f3577;
+    padding: 10px 20px;
+
+
+    /* Style for "Rectangle" */
+ 
+min-height: 213px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+ 
+}
+
+.whiteBox{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    background-color: #ffffff; 
+    padding: 10px 40px;
+     
+}
+
+.timeleft{
+    color: #ffffff;
+font-family: "Segoe UI";
+font-size: 17px;
+font-weight: 600;
+text-align: center;
+}
+
+.time{
+    color: #ffffff;
+font-family: "Segoe UI";
+font-size: 25px;
+font-weight: 400;
+text-align: center;
+padding-top: 60px;
+}
+
+.fenofibrate{
+    color: #0f3577;
+font-family: "Segoe UI";
+font-size: 17px;
+font-weight: 600;
+}
+
+.greytxt{
+     
+color: #cccccc;
+font-family: "Segoe UI";
+font-size: 17px;
+font-weight: 400;
+}
+
+.bidprice{
+    color: #d90368;
+font-family: "Segoe UI";
+font-size: 25px;
+font-weight: 400;
+}
+
+.postid{
+    text-align: right;
+}
+
+.btn{
+    border-radius: 10px;
+background-color: #0f3577;
+padding: 10px 20px;
+}
+
+.btntxt{
+     /* Style for "My dashboa" */
+ 
+color: #ffffff;
+font-family: "Segoe UI";
+font-size: 17px;
+font-weight: 600;
+}
+
+.btnDiv{
+    text-align: right;
+}
+
+.secondContainer{
+    
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+border-radius: 5px;
+background-color: #ffffff;
+padding: 35px;
+ 
+}
+
+.bluetxt{
+    height: 24px;
+color: #0f3577;
+font-family: "Segoe UI";
+font-size: 17px;
+font-weight: 600;
+}
+
+.section{
+text-align: center; 
+border-right: 2px solid #cccccc;
+
+ 
+}
+
+.centerDiv{
+    display: inline;
+}
+
+.rating{
+    /* Style for "pickup" */
+    color: #0f3577;
+font-family: "Segoe UI";
+font-size: 25px;
+font-weight: 400;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+     
+}
+
+.btn1{
+  
+
+    /* Style for "Rectangle" */
+width: 160px;
+height: 60px;
+border-radius: 10px;
+border: 1px solid #0f3577;
+background-color: #ffffff;
+}
+
+.btn2{
+    /* Style for "Rectangle" */
+width: 109px;
+height: 60px;
+border-radius: 10px;
+background-color: #0f3577;
+
+margin-left: 15px;
+
+
+}
+
+.btn1txt{
+    /* Style for "Accept" */
+ 
+ 
+color: #0f3577;
+font-family: "Segoe UI";
+font-size: 17px;
+font-weight: 600;
+}
+
+.btn2txt{
+    /* Style for "Counter of" */
+ 
+ 
+color: #ffffff;
+font-family: "Segoe UI";
+font-size: 17px;
+font-weight: 600;
+/* margin-left: 15px; */
+}
+
+.record{
+    background-color: white;
+    padding-top: 30px;
+}
+
+.clock{
+    text-align: center;
+     
+    
+}
+
+
+
+/* Manage Offer */
+
+
 .lable {
     margin-left: 15px;
     margin-bottom: 15px;
     text-align: left;
-    font: Bold 20px/28px Segoe UI;
+    font: Bold 20px/28px "Segoe UI";
     letter-spacing: 0;
     color: #0F3577;
 }
@@ -156,13 +355,19 @@ select {
     position: relative;
 }
 .vLine {
-    border-left: 1px solid #999999;
+    /* border-left: 1px solid #999999;
     height: 40px;
     margin: 17px 0 0;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
+
+    /* New */
+  /* Style for "Line 85" */
+/* width: 1px; */
+height: 41px;
+border: 1px solid #cccccc;
 }
 .zeroColPadding {
     padding-left: 0 !important;
@@ -190,6 +395,9 @@ select {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     } */
+    .outerContainer{
+        padding: 10px 20px;
+    }
     .vLine {
         display: none;
 
@@ -220,6 +428,7 @@ select {
         color: #0F3577;
     }
     .btncolumn {
+        padding-top: 20px !important;
         text-align: center;
         padding: 0 !important;
     }
@@ -340,6 +549,31 @@ select {
         /* margin-left: 50px !important;
         margin-right: 50px !important; */
     }
+    .buttonDiv{
+        padding: 20px;
+
+    }
+
+    .time{
+        color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 60px;
+    }
+    .btn2{
+        /* Style for "Rectangle" */
+    width: 109px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #0f3577;
+    margin: 10px 0px 0px;
+    
+     
+    
+    
+    }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     .navoptions {
@@ -431,4 +665,5 @@ select {
         border-radius: 5px !important;
         opacity: 1;
     }
+
 }
