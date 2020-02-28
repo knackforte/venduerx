@@ -21,6 +21,8 @@ import Profile from './Components/Profile.js';
 // import Navbar from './Components/TempNavbar.js';
 import CustomerSetting from './Components/CustomerSetting.js'; 
 import Postview from './Components/Postview.js';
+import AcceptPost from './Components/AcceptPost.js';
+import Models from './Components/Models.js';
 
 
 class App extends Component {
@@ -44,6 +46,8 @@ class App extends Component {
                 {/* <Profile/> */}
                 {/* <CustomerSetting/> */}
                 <Postview/>
+                {/* <AcceptPost/> */}
+                {/* <Models/> */}
                 </>
         )
 

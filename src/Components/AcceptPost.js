@@ -13,6 +13,7 @@ class Postview extends Component {
     {
         return (
             <div className={styles.outerContainer}>
+                 
 
                 <div className="container">
                     <div className={styles.heading}>Summary</div>
@@ -20,7 +21,7 @@ class Postview extends Component {
                         <div className="row">
                             <div className={styles.blueBox + " col-md-2 col-lg-2 col-sm-2"}>
                                 <div className={styles.timeleft}>
-                                    <div>Time left</div>
+                                    <div>Accepted on:<br></br>Jan 20, 2020</div>
                                 </div>
                                 <div className={styles.time}>2d 11h 21m</div>
                                 <div className={styles.clock}>
@@ -217,12 +218,12 @@ class Postview extends Component {
                                 <div className={styles.buttonDiv}>
                                     <div>
 
-                                        <button className={styles.acceptbtn}>
-                                            <span className={styles.acceptbtntxt}>Accepted</span>
+                                        <button className={styles.btn1}>
+                                            <span className={styles.btn1txt}>Counter offer</span>
                                         </button>
 
-                                        <button className={styles.messagebtn}>
-                                            <span className={styles.messagebtntxt}>Message</span>
+                                        <button className={styles.btn2}>
+                                            <span className={styles.btn2txt}>Accept</span>
                                         </button>
 
                                     </div>

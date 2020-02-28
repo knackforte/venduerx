@@ -4,18 +4,18 @@
 
 
 .heading{
-    color: #0f3577;
+  /* Style for "You made a" */
+ 
+color: #d90368;
 font-family: "Segoe UI";
 font-size: 25px;
 font-weight: 700;
-
-margin: 30px 0px 30px;
 }
 
 .blueBox{
     /* border-radius: 5px 0 0 5px; */
     background-color: #0f3577;
-    padding: 10px 20px;
+     
 
 
     /* Style for "Rectangle" */
@@ -25,11 +25,23 @@ box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
  
 }
 
-.whiteBox{
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
-    /* border-radius: 5px; */
-    background-color: #ffffff; 
-    padding: 10px 40px;
+.discription{
+    /* Style for "This posti" */
+ 
+color: #0f3577;
+font-family: "Segoe UI";
+font-size: 17px;
+font-weight: 400;
+}
+
+.whiteBox{ 
+    /* Style for "Rectangle" */
+/* width: 800px; */
+/* height: 290px; */
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+border-radius: 10px;
+background-color: #ffffff;
+padding: 30px;
      
 }
 
@@ -85,6 +97,7 @@ font-weight: 400;
 }
 
 .btn{
+    text-align: right;
     border-radius: 10px;
 background-color: #0f3577;
 padding: 10px 20px;
@@ -115,7 +128,7 @@ padding: 35px;
 
 .bluetxt{
     height: 24px;
-color: #0f3577;
+color: white;
 font-family: "Segoe UI";
 font-size: 17px;
 font-weight: 600;
@@ -132,9 +145,20 @@ border-right: 2px solid #cccccc;
     display: inline;
 }
 
+.modalcontent{
+    /* Style for "Rectangle" */
+ 
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+border-radius: 10px;
+background-color: #ffffff;
+/* padding: 30px; */
+
+}
+
+
 .rating{
     /* Style for "pickup" */
-    color: #0f3577;
+    color: white;
 font-family: "Segoe UI";
 font-size: 25px;
 font-weight: 400;
@@ -191,23 +215,11 @@ font-weight: 600;
 }
 
 .record{
-    background-color: white;
+    background-color: #0f3577;
     padding-top: 30px;
 }
 
-.record:hover {
-    background-color: #0f3577;
-    color: white;
-    
-}
-
-.bluetxt:hover{
-    color: white;
-}
-
-.rating:hover{
-    color: white;
-}
+ 
 
 .clock{
     text-align: center;
@@ -457,16 +469,6 @@ border: 1px solid #cccccc;
 }
 @media only screen and (max-width: 767px) {
 
-    /* .vLine {
-        border-left: 2px solid #0F3577;
-        height: 40px;
-        right: 10px;
-        margin: 8px 0 0;
-        position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    } */
     .outerContainer{
         padding: 10px 20px;
     }
@@ -753,3 +755,18 @@ border: 1px solid #cccccc;
     }
 
 }
+
+@media only screen and(min-width: 768px) {
+    .modal-dialog {
+      width: 1000;
+      margin: 30px auto;
+    }
+    .modal-content {
+        width: 100px;
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+              box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    .modal-sm {
+      width: 300px;
+    }
+  }
